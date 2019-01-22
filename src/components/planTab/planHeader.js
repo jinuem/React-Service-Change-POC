@@ -38,11 +38,11 @@ class PlanHeader extends Component {
                     <div class="p-col-12 p-md-6 p-lg-3">
                     <SelectButton value={this.state.levelType} options={tabOptions} onChange={(e) => this.setState({levelType: e.value})}></SelectButton>
                     </div>
-                    <div class="p-col-12 p-md-6 p-lg-3">Sales Rep ID
+                    <div class="p-col-12 p-md-6 p-lg-3">Plan Collection
 
                     <Dropdown value={this.state.levelType} options={tabOptions} onChange={(e) => {this.setState({levelType: e.value})}} placeholder=""/>
                     </div>
-                    <div class="p-col-12 p-md-6 p-lg-3">Sales Rep ID
+                    <div class="p-col-12 p-md-6 p-lg-3">Price Plan
 
                     <Dropdown value={this.state.levelType} options={tabOptions} onChange={(e) => {this.setState({levelType: e.value})}} placeholder=""/>
                     </div>
