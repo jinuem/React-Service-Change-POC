@@ -1,4 +1,13 @@
 body {padding: 2em;}
 .searchIcon{height:20px;width: 20px;    margin: 0 5px;cursor: pointer;}
+/*{background:#e9e9e9
+border:#d0d0d0
+}
+level red button
+.burgundybutton from core.css
 
+for sidebar red button
+.x-acssweb-btn-pressed, .x-acssweb-btn-over, .x-acssweb-btn-wrap-pressed, .x-acssweb-btn-wrap-over
+ from extjs.acssweb.css
+ */
 body .p-selectbutton .p-button.p-highlight{background-color:#e91224 !important;border:#e91224 !important}
