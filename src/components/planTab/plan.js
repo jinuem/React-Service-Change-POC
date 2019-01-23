@@ -1,19 +1,20 @@
 import React, { Component } from 'react'
 import PlanHeader from './planHeader'
 import PlanTable from './planTable'
-import PlanFooter from './planfooter';
+import PlanFooter from './planFooter';
 import ServiceHeader from '../serviceCommonComponents/serviceHeader';
-//import ServiceSideBar from '../serviceCommonComponents/serviceSideBar';
+import ServiceChargeTabs from '../serviceCommonComponents/ServiceChargeTabs';
 import ServiceFooter from '../serviceCommonComponents/serviceFooter';
 class Plan extends Component {
     render() {
       return (
           <div class="container">
-            <ServiceHeader/>
+          <ServiceHeader/>
             <PlanHeader/>
             <PlanTable/>
             <PlanFooter/>
             <ServiceFooter/>
+            <ServiceChargeTabs/>
           </div>
       )
     }
