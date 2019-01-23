@@ -17,25 +17,27 @@ class PlanHeader extends Component {
             {label: 'Line Level', value: 'LineLevel'},
         ];
       return (
-          <div>
-                <div class="p-grid p-justify-between">
-                    <div class="p-col-12 p-md-6 p-lg-3">
+
+                <div className="p-grid" id="planHeader">
+                    <div className="p-col-12 p-md-6 p-lg-2 p-col-align-end">
                     <SelectButton  value={this.state.levelType} options={tabOptions} onChange={(e) => this.setState({levelType: e.value})}></SelectButton>
                     </div>
-                    <div class="p-col-12 p-md-6 p-lg-3">Plan Collection
+                    <div className="p-col-12 p-md-6 p-lg-4 selectGroup">
+                    <span>Plan Collection 
+                    </span>
 
-                    <Dropdown value={this.state.levelType} options={tabOptions} onChange={(e) => {this.setState({levelType: e.value})}} placeholder=""/>
+                    <Dropdown className="selectInput planCollection" autoWidth={false} value={this.state.levelType} options={tabOptions} onChange={(e) => {this.setState({levelType: e.value})}} placeholder=""/>
                     </div>
-                    <div class="p-col-12 p-md-6 p-lg-3">Price Plan
+                    <div className="p-col-12 p-md-6 p-lg-4 selectGroup"><span>Price Plan </span>
 
-                    <Dropdown value={this.state.levelType} options={tabOptions} onChange={(e) => {this.setState({levelType: e.value})}} placeholder=""/>
+                    <Dropdown className="selectInput planPrice" autoWidth={false} value={this.state.levelType} options={tabOptions} onChange={(e) => {this.setState({levelType: e.value})}} placeholder=""/>
                     </div>
-                    <div class="p-col-12 p-md-6 p-lg-3">
-                    Plan ID
-                    <InputText/>
+                    <div className="p-col-12 p-md-6 p-lg-2 planInputGroup">
+                    <span>Plan ID</span>
+                    <InputText className="planInput"/>
                     </div>
                 </div>
-          </div>
+
       )
     }
 }

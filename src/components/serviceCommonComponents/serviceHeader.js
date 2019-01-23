@@ -12,19 +12,21 @@ class ServiceHeader extends Component {
     }
     render() {
         return(
-                <div class="p-grid p-justify-between">
-                    <div class="p-col-12 p-md-6 p-lg-5">Billing Outlet ID
-                    <InputText/>
+                <div id="serviceHeader" className="p-grid">
+                    <div className="p-col-12 p-md-12 p-lg-5 p-lg-offset-1">
+                    <span className="boldText">Billing Outlet ID </span>
+                    <InputText className="billingInput"/>
                     <img onClick={()=>alert('clicked')} className="searchIcon" src={searchIcon}/>
-                    VZM CUSTOMER SERVICE
+                    <span className="addOnText"> VZM CUSTOMER SERVICE</span>
                     </div>
-                    <div class="p-col-12 p-md-6 p-lg-5">Sales Rep ID
-                    <InputText/>
+                    <div className="p-col-12 p-md-9 p-lg-5">
+                    <span className="boldText">Sales Rep ID </span>
+                    <InputText className="salesRepInput"/>
                     <img onClick={()=>alert('clicked')} className="searchIcon" src={searchIcon}/>
-                    ENC REP
+                    <span className="addOnText"> ENC REP</span>
                     </div>
-                    <div class="p-col-12 p-md-2 p-lg-2">
-                    <Button label="History" className="p-button-danger"/>
+                    <div className="p-col-12 p-md-3 p-lg-1">
+                    <Button label="History" className="burgundybutton"/>
                     </div>
                 </div>
         )
