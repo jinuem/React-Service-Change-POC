@@ -36,7 +36,7 @@ class PlanTable extends Component {
         return (
             <div className="p-grid p-dir-rev">
                 <div className="p-col">
-                    <div className="content-section implementation">
+                    <div id="pt_plantable"  className="content-section implementation">
                         <DataTable value={this.state.data}>
                             {dynamicColumns}
                         </DataTable>

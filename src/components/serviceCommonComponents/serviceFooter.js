@@ -35,12 +35,28 @@ class ServiceFooter extends Component {
         });
         return (
             <div>
-                ------------------------------------------------Order Preview----------------------------------------------
+                
+                <div class="p-grid p-justify-between p-align-center vertical-container">
+                                <div className="p-col-5">
+                                    <div className="box">
+                                    <hr class="headerline"></hr>
+                                    </div>
+                                </div>
+                                <div className="p-col-2 titleheader">
+                                   <p><h3>Order Preview</h3></p>
+                                   
+                                </div>
+                                <div className="p-col-5">
+                                    <div className="box">
+                                    <hr class="headerline"></hr>
+                                    </div>
+                                </div>
+                </div>
                 <div class="p-grid p-justify-between">
                     <div class="p-col-12 p-md-11 p-lg-11">
                             <div className="p-grid p-dir-rev">
-                            <div className="p-col">
-                                <div className="content-section implementation">
+                            <div  className="p-col">
+                                <div id="sf_servicefootertable" className="content-section implementation">
                                     <DataTable value={this.state.data}>
                                     {dynamicColumns}
                                     </DataTable>

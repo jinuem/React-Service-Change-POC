@@ -12,7 +12,24 @@ class ServiceHeader extends Component {
     }
     render() {
         return(
-                <div id="serviceHeader" className="p-grid">
+                <div>
+                    <div class="p-grid p-justify-between p-align-center vertical-container">
+                                <div className="p-col-5">
+                                    <div className="box">
+                                    <hr class="headerline"></hr>
+                                    </div>
+                                </div>
+                                <div className="p-col-2 titleheader">
+                                   <p><h3>Service Change</h3></p>
+                                   
+                                </div>
+                                <div className="p-col-5">
+                                    <div className="box">
+                                    <hr class="headerline"></hr>
+                                    </div>
+                                </div>
+                    </div>
+                    <div id="serviceHeader" className="p-grid">
                     <div className="p-col-12 p-md-12 p-lg-5 p-lg-offset-1">
                     <span className="boldText">Billing Outlet ID </span>
                     <InputText className="billingInput"/>
@@ -28,6 +45,7 @@ class ServiceHeader extends Component {
                     <div className="p-col-12 p-md-3 p-lg-1">
                     <Button label="History" className="burgundybutton"/>
                     </div>
+                </div>
                 </div>
         )
     }

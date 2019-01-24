@@ -7,10 +7,10 @@ import PlanFooter from '../planTab/planFooter';
 
 
 
-class ServiceChargeTabs extends Component {
+class ServiceChangeTabs extends Component {
   render() {
     return (
-      <Tabs defaultTab="vertical-tab-one" vertical>
+      <Tabs defaultTab="vertical-tab-two" vertical>
         <TabList>
           <Tab tabFor="vertical-tab-one">Devices</Tab>
           <Tab tabFor="vertical-tab-two">Plan</Tab>
@@ -32,4 +32,4 @@ class ServiceChargeTabs extends Component {
   }
 }
 
-export default ServiceChargeTabs;
+export default ServiceChangeTabs;
