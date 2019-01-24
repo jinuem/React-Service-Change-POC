@@ -1,6 +1,6 @@
 body {padding: 2em;
     font: normal 12px/14px tahoma,arial,verdana,sans-serif;
-    background: #ccc !important;
+    background: #e6e4e4 !important;
     margin: 0;
     text-align: left;
     color: #000;
@@ -172,7 +172,9 @@ body .p-selectbutton .p-button.p-highlight,.burgundybutton{
   .footer_buttons_group {
       float:right
   }
-
+  .footer_buttons_group button {
+      margin: 0 5px;
+  }
 
  button[disabled=disabled] ,
  button:disabled  {
@@ -183,6 +185,5 @@ body .p-selectbutton .p-button.p-highlight,.burgundybutton{
     background-color: #dadada !important;
     border: 1px solid #000 !important;
     border-radius:5px;
-    margin: 0 5px;
-
 }
+.service_footer_button_set button{width:100%}

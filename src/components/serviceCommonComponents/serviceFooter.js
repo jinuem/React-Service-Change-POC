@@ -64,26 +64,26 @@ class ServiceFooter extends Component {
                             </div>
                             </div>
                     </div>
-                    <div class="p-col-12 p-md-1 p-lg-1">
+                    <div class="p-col-12 p-md-1 p-lg-1 service_footer_button_set">
                             <div className="p-grid p-dir-col">
                                 <div className="p-col">
-                                    <div className="box">
-                                    <Button label="Validate" disabled="disabled" className="p-button-raised p-button-secondary" />
+                                    <div className="box"> 
+                                    <Button label="Validate" disabled="disabled" className="burgundybutton" />
                                     </div>
                                 </div>
                                 <div className="p-col">
                                     <div className="box">
-                                    <Button className="footerbutton" label="View Promos" disabled="disabled" className="p-button-raised p-button-secondary" />
+                                    <Button className="footerbutton" label="View Promos" disabled="disabled" className="burgundybutton" />
                                     </div>
                                 </div>
                                 <div className="p-col">
                                     <div className="box">
-                                    <Button label="WFM" disabled="disabled" className="p-button-raised p-button-secondary" />
+                                    <Button label="WFM"  className="burgundybutton" />
                                     </div>
                                 </div>
                                 <div className="p-col">
                                     <div className="box">
-                                    <Button label="Submit" disabled="disabled" className="p-button-raised p-button-secondary" />
+                                    <Button label="Submit" disabled="disabled" className="burgundybutton" />
                                     </div> 
                                 </div>
                             </div>
